@@ -19,7 +19,7 @@ function parse_cookie($cookie) {
 
 $rn = "\r\n";
 
-$_URL['domain'] = '.site.com'; // Ваш домен (точку в начале не удалять)
+$_URL['domain'] = '.woow20.github.io'; // Ваш домен (точку в начале не удалять)
 $part = explode('.', str_replace($_URL['domain'], '', $_SERVER['HTTP_HOST']));
 $scheme = $part[0];
 unset($part[0]);
